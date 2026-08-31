@@ -1,0 +1,18 @@
+.product-description {
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+}
+
+.product-description__image {
+  width: 100%;
+  /* max-width: 40rem; */
+  height: 30rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+
+.product-description p {
+  max-width: 40rem;
+  margin: 0 auto;
+  line-height: 1.5;
+}

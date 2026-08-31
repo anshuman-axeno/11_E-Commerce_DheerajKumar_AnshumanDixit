@@ -1,0 +1,13 @@
+.cart {
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+  background-color: white;
+}
+
+.cart__total {
+  font-weight: 600;
+  margin-top: 1rem;
+  text-align: right;
+  font-size: 1.05rem;
+}

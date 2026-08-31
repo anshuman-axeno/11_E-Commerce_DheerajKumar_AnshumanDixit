@@ -1,0 +1,31 @@
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #e5e7eb;
+  flex-wrap: wrap;
+}
+
+.cart-item__name {
+  font-weight: 600;
+  min-width: 7rem;
+}
+
+.cart-item__qty {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.cart-item__subtotal {
+  margin-left: auto;
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .cart-item__subtotal {
+    margin-left: 0;
+    width: 100%;
+  }
+}
