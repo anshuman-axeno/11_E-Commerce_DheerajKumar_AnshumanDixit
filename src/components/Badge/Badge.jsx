@@ -1,4 +1,4 @@
-import "../Badge/Badge.css";
+import "./Badge.css";
 function Badge(props) {
   let className = "badge";
 
